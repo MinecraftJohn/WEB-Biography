@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+body {
+    height: 100vh;
+    background: rgb(30,32,35);
+    background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
+}
+.bodySection {
+    background: rgb(30,32,35);
+    background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
+    width: 100%;
+}
+.pageSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headerContainer {
+    background-image: url(../images/polygon.png);
+    background-color: rgba(255, 255, 255, 0.04);
+    width: 1064px;
+    max-width: 95%;
+    height: 320px;
+    border-radius: 8px;
+    margin: 32px 0 0 0;
+    overflow: hidden;
+    position: relative;
+}
+.headerProfileContainer {
+    background: rgb(30,32,35);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.headerLogo {
+    position: absolute;
+    right: 64px;
+    top: 50%;
+    transform: translateY(-50%) scale(1);
+    transition: transform .3s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.headerProfilePictureSection {
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    position: absolute;
+    right: 135px;
+    top: 50%;
+    transform: translateY(-50%) scale(0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s ease-out;
+}
+.headerProfilePictureContainer {
+    height: 144px;
+    width: 144px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.headerProfilePicture {
+    height: 144px;
+    margin-left: -28px;
+}
+.headerNameContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 64px;
+}
+.headerNameFullName {
+    font-size: 26px;
+    font-weight: 500;
+}
+.headerNameSubtitle {
+    margin-top: 4px;
+    color: #909090;
+    font-weight: 500;
+}
+.infoContainer {
+    width: 1064px;
+    max-width: 95%;
+    margin: 32px 0 0 0;
+    display: flex;
+}
+.infoDividerContainer {
+    width: 100%;
+    margin: 0 8px 0 0;
+}
+.infoDividerContainerLeft {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.infoDividerContainerRight {
+    margin: 0 0 0 8px !important;
+}
+.infoBoxContainer {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    height: 69px;
+    padding: 0 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 6px 0 0 0;
+}
+.infoBoxContainerTop {
+    margin: 0 !important;
+}
+.infoBoxContainer:hover {
+    background-color: rgba(255, 255, 255, 0.065);
+}
+.infoBoxIcon {
+    width: 18px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.infoBoxTextTitle {
+    font-size: 14px;
+    margin-left: 24px;
+}
+.infoBoxTextInfo {
+    font-size: 11px;
+    margin-left: 24px;
+    color: #CECFD1;
+}
+.infoAboutMeTitle {
+    font-weight: 500;
+    margin: 32px 24px 0 32px;
+}
+.infoAboutMeText {
+    font-size: 14px;
+    margin: 24px 24px 0 32px;
+    color: #d9d9d9;
+}
+.footerContainer {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 1064px;
+    max-width: 95%;
+    height: 69px;
+    margin: 32px 0 8px 0;
+    border-radius: 8px;
+    display: flex;
+}
+.footerCopyrightContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerCopyrightTitle {
+    font-size: 14px;
+    margin-left: 32px;
+}
+.footerCopyrightSubtitle {
+    font-size: 11px;
+    color: #CECFD1;
+    margin-left: 32px;
+}
+.footerMediaContainer {
+    height: 100%;
+    width: 100%;
+    margin-right: 32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footerLinks {
+    display: flex;
+}
+.footerLinkMargin {
+    margin-left: 8px;
+}
